@@ -13,7 +13,6 @@
     "files.trimFinalNewlines": true,
     "files.insertFinalNewline": true,
     "remote.extensionKind": {
-        "ms-azuretools.vscode-docker": "ui",
         "ms-vscode-remote.remote-containers": "ui"
     },
     "editor.formatOnSave": true,

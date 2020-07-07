@@ -1,11 +1,12 @@
 {
   "version": "0.2.0",
-  "configurations": [{
-    "name": "Launch",
-    "type": "go",
-    "request": "launch",
-    "mode": "auto",
-    "env": {},
-    "args": []
-  }]
+  "configurations": [
+    {
+      "name": "Launch",
+      "type": "go",
+      "request": "launch",
+      "mode": "debug",
+      "program": "${workspaceFolder}/cmd/users-cli/main.go"
+    }
+  ]
 }

@@ -8,12 +8,12 @@
   // Set *default* container specific settings.json values on container create.
   "settings": {
     "terminal.integrated.shell.linux": "/bin/bash",
-    "go.gopath": "/workspace/go"
+    "go.gopath": "/go"
   },
   // Configure to mount local workspace directory to an appropriate workspace directory
   // within development container.
-  "workspaceMount": "src=${localWorkspaceFolder},dst=/workspace/sample/,type=bind",
-  "workspaceFolder": "/workspace/sample/",
+  "workspaceMount": "src=${localWorkspaceFolder},dst=/workspace/,type=bind",
+  "workspaceFolder": "/workspace/",
   // Configure VSCode extensions to be installed into development container's underlying VSCode-Server
   // once having finished launching.
   "extensions": [

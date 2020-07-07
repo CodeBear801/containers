@@ -1,4 +1,4 @@
-module github.com/CodeBear801/sample
+module example.com/sample
 
 go 1.13
 
