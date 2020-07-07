@@ -3,7 +3,7 @@ package users
 import (
 	"regexp"
 
-	"github.com/CodeBear801/go-template/util"
+	"github.com/CodeBear801/sample/util"
 )
 
 // User holds a user's data.

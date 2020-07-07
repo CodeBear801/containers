@@ -1,4 +1,4 @@
-module github.com/CodeBear801/golang-dev
+module github.com/CodeBear801/sample
 
 go 1.13
 

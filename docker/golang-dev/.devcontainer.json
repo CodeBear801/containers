@@ -2,12 +2,21 @@
   "dockerFile": "Dockerfile",
   // Configure port mapping between localhost and development container,
   // should be updated respectively to exposed service ports of referencing container.
-  "appPort": ["8000:8000"],
+  "appPort": [
+    "8000:8000"
+  ],
+  // Set *default* container specific settings.json values on container create.
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash",
+    "go.gopath": "/workspace/go"
+  },
   // Configure to mount local workspace directory to an appropriate workspace directory
   // within development container.
-  "workspaceMount": "src=${localWorkspaceFolder},dst=/workspace,type=bind",
-  "workspaceFolder": "/workspace"
+  "workspaceMount": "src=${localWorkspaceFolder},dst=/workspace/sample/,type=bind",
+  "workspaceFolder": "/workspace/sample/",
   // Configure VSCode extensions to be installed into development container's underlying VSCode-Server
   // once having finished launching.
-  //"extensions": ["ms-vscode.go"]
+  "extensions": [
+    "golang.Go"
+  ]
 }
